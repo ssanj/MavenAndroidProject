@@ -1,15 +1,15 @@
 A simple maven project for android development 
 ----------------------------------------------
 
-This project includes a HelloWorld activity as well as a sample Robolectric test case.
+This project includes a HelloWorld activity as well as a sample Robolectric test case. The Android API version used is 2.3.3 (Level 10).
 
-The project apk can be build with the usual: mvn clean install
+The project apk can be built with the usual: mvn clean install
 
 If you want to deploy the project use: mvn android:deploy
 
 To build and deploy use: mvn clean install android:deploy
 
-You must start the emulator before deployment with: mvn android-emulator-start
+You must start the emulator before deployment with: mvn android:emulator-start
 
 You need to setup the jdk6.home and jdk6.compiler properties either in your pom.xml or in your ~/.m2/settings.xml. This points to the correct jdk to use.
 
